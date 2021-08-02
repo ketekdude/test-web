@@ -1,0 +1,54 @@
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="padd-section">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-title text-center">
+          <h2>Contact</h2>
+          <p class="separator">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-5 col-md-8">
+            <div class="form">
+              <form role="form" id="action" action="#" method="post" class="php-email-form">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group mt-3">
+                  <!-- <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required> -->
+                  <select id="type" class="form-control" name="type">
+                    <option value="">Please Select</option>
+                    <option value="buka-rekening">Volvo</option>
+                  </select>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    <span id='close'>x</span>
+                    <span>
+                      Your message has been sent. Thank you!
+                    </span>
+                    
+                  </div>
+                </div>
+                <div class="text-center">
+                  <!-- <button class="submit">Send Message</button> -->
+                  <button type="submit" class="btn btn-primary">Save Change</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <script src="view/contact.js"></script>
