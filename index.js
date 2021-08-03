@@ -31,6 +31,7 @@ function initialURLLoad(){
     $('#primarycontent').load(pageSelected);
 
   }
+  $('html, body').scrollTop( $("#primarycontent").offset().top);
 }
 function checkSession(){
   if(sessionStorage.getItem('email') == null){
